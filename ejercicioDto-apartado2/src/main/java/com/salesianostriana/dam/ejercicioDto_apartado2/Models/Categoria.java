@@ -1,0 +1,1 @@
+package Models;import lombok.*;@Getter@Setter@AllArgsConstructor@NoArgsConstructor@Builderpublic class Categoria {    private  Long id;    private  String nombre;}
