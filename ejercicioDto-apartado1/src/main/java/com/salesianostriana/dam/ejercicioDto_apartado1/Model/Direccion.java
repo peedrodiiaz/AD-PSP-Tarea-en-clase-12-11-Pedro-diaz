@@ -1,1 +1,11 @@
-package com.salesianostriana.dam.ejercicioDto_apartado1.Model;public class Direccion {    private Long id;    private String tipoVia;    private String linea1;    private String linea2;    private int cp;    private String provincia;    private String poblacion;}
+package com.salesianostriana.dam.ejercicioDto_apartado1.Model;
+
+public class Direccion {
+    private Long id;
+    private String tipoVia;
+    private String linea1;
+    private String linea2;
+    private int cp;
+    private String provincia;
+    private String poblacion;
+}
