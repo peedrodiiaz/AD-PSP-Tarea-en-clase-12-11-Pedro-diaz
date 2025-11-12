@@ -1,1 +1,38 @@
-package com.salesianostriana.dam.ejercicioDto_apartado1.Mapper;import com.salesianostriana.dam.ejercicioDto_apartado1.Dto.AlumnoDto;import com.salesianostriana.dam.ejercicioDto_apartado1.Model.Alumno;import lombok.experimental.UtilityClass;@UtilityClasspublic class AlumnoMapper {    public  AlumnoDto toDto(Alumno a){        if (a==null)return null;        return  new AlumnoDto(                a.getNombre(),                a.getApellido1(),                a.getApellido2(),                a.getNumero(),                a.getEmail(),                a.getDireccion(),                a.getCurso()        );    }    public Alumno toEntity (AlumnoDto aDto){        if (aDto == null) return null;        return Alumno.builder()                .nombre(aDto.nombre())                .apellido1(aDto.apellido1())                .apellido2(aDto.apellido2())                .numero(aDto.telefono())                .email(aDto.email())                .direccion(aDto.direccion())                .curso(aDto.curso())                .build();    }}
+package com.salesianostriana.dam.ejercicioDto_apartado1.Mapper;
+
+import com.salesianostriana.dam.ejercicioDto_apartado1.Dto.AlumnoDto;
+import com.salesianostriana.dam.ejercicioDto_apartado1.Model.Alumno;
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
+public class AlumnoMapper {
+    public  AlumnoDto toDto(Alumno a){
+        if (a==null)return null;
+
+        return  new AlumnoDto(
+
+                a.getNombre(),
+                a.getApellido1(),
+                a.getApellido2(),
+                a.getNumero(),
+                a.getEmail(),
+                a.getDireccion(),
+                a.getCurso()
+
+        );
+    }
+    public Alumno toEntity (AlumnoDto aDto){
+        if (aDto == null) return null;
+        return Alumno.builder()
+                .nombre(aDto.nombre())
+                .apellido1(aDto.apellido1())
+                .apellido2(aDto.apellido2())
+                .numero(aDto.telefono())
+                .email(aDto.email())
+                .direccion(aDto.direccion())
+                .curso(aDto.curso())
+                .build();
+    }
+
+
+}
