@@ -1,1 +1,0 @@
-package com.salesianostriana.dam.ejercicioDto_apartado2.Dtos;public record ProductoDto() {}

@@ -1,0 +1,1 @@
+package com.salesianostriana.dam.ejercicioDto_apartado2.Dtos;import com.salesianostriana.dam.ejercicioDto_apartado2.Models.Producto;import org.mapstruct.Mapper;@Mapper(componentModel = "spring")public interface IproductoMapper {    ProductoDto todto (Producto producto);    Producto toEntity (ProductoDto productoDto);}
