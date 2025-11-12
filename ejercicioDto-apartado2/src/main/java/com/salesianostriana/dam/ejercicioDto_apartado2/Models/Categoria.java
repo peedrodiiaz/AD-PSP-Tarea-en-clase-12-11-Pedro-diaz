@@ -1,1 +1,1 @@
-package Models;import lombok.*;@Getter@Setter@AllArgsConstructor@NoArgsConstructor@Builderpublic class Categoria {    private  Long id;    private  String nombre;}
+package com.salesianostriana.dam.ejercicioDto_apartado2.Models;import lombok.*;@Getter@Setter@AllArgsConstructor@NoArgsConstructor@Builderpublic class Categoria {    private  Long id;    private  String nombre;}

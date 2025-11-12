@@ -1,1 +1,1 @@
-package com.salesianostriana.dam.ejercicioDto_apartado1.Model;public class Alumno {}
+package com.salesianostriana.dam.ejercicioDto_apartado1.Model;import lombok.*;@Getter@Setter@AllArgsConstructor@NoArgsConstructor@Builderpublic class Alumno {    private Long id;    private  String nombre;    private String apellido1;    private String apellido2;    private int numero;    private String email;    private Direccion direccion;    private  Curso curso;}

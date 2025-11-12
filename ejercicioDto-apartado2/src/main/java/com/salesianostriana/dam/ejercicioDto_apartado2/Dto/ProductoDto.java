@@ -1,1 +1,1 @@
-package com.salesianostriana.dam.ejercicioDto_apartado2.Dtos;import com.salesianostriana.dam.ejercicioDto_apartado2.Models.Categoria;import java.util.List;public record ProductoDto(String nombre, double pvp, double descuento, List<String>imagenes, Categoria Categoria) {}
+package com.salesianostriana.dam.ejercicioDto_apartado2.Dto;import com.salesianostriana.dam.ejercicioDto_apartado2.Models.Categoria;import java.util.List;public record ProductoDto(String nombre, double pvp, double descuento, List<String>imagenes, Categoria Categoria) {}
